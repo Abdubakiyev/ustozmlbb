@@ -51,11 +51,24 @@ export default function Page() {
         <div className={`flex flex-col w-full gap-5 transition-all duration-1000 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           {/* ADMIN */}
           <a
+            href="https://t.me/Ustoz_Mlbb_servis_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group w-full py-4 rounded-2xl bg-gradient-to-r from-blue-500/90 to-blue-600/90 hover:from-blue-400 hover:to-blue-500 backdrop-blur-sm border border-white/10 transition-all duration-500 text-white flex items-center justify-center gap-4 shadow-2xl hover:shadow-2xl hover:shadow-blue-500/30 hover:-translate-y-2 transform-gpu"
+            style={{ transitionDelay: '0.2s' }}
+          >
+            <div className="p-3 bg-white/10 rounded-xl group-hover:bg-white/20 group-hover:scale-110 transition-all duration-300">
+              <FaTelegramPlane size={24} />
+            </div>
+            <div className="text-center font-semibold text-lg">ALMAS NARXLARI 💎</div>
+          </a>
+
+          <a
             href="https://t.me/suhrobgiyosov"
             target="_blank"
             rel="noopener noreferrer"
             className="group w-full py-4 rounded-2xl bg-gradient-to-r from-purple-700/90 to-indigo-700/90 hover:from-purple-600 hover:to-indigo-600 backdrop-blur-sm border border-white/10 transition-all duration-500 text-white flex items-center justify-center gap-4 shadow-2xl hover:shadow-2xl hover:shadow-purple-500/30 hover:-translate-y-2 transform-gpu"
-            style={{ transitionDelay: '0.2s' }}
+            style={{ transitionDelay: '0.3s' }}
           >
             <div className="p-3 bg-white/10 rounded-xl group-hover:bg-white/20 group-hover:scale-110 transition-all duration-300">
               <MdAdminPanelSettings size={24} />
@@ -72,7 +85,7 @@ export default function Page() {
             target="_blank"
             rel="noopener noreferrer"
             className="group w-full py-4 rounded-2xl bg-gradient-to-r from-red-600/90 to-red-700/90 hover:from-red-500 hover:to-red-600 backdrop-blur-sm border border-white/10 transition-all duration-500 text-white flex items-center justify-center gap-4 shadow-2xl hover:shadow-2xl hover:shadow-red-500/30 hover:-translate-y-2 transform-gpu"
-            style={{ transitionDelay: '0.3s' }}
+            style={{ transitionDelay: '0.4s' }}
           >
             <div className="p-3 bg-white/10 rounded-xl group-hover:bg-white/20 group-hover:scale-110 transition-all duration-300">
               <FaYoutube size={24} />
@@ -86,7 +99,7 @@ export default function Page() {
             target="_blank"
             rel="noopener noreferrer"
             className="group w-full py-4 rounded-2xl bg-gradient-to-r from-blue-500/90 to-blue-600/90 hover:from-blue-400 hover:to-blue-500 backdrop-blur-sm border border-white/10 transition-all duration-500 text-white flex items-center justify-center gap-4 shadow-2xl hover:shadow-2xl hover:shadow-blue-500/30 hover:-translate-y-2 transform-gpu"
-            style={{ transitionDelay: '0.4s' }}
+            style={{ transitionDelay: '0.5s' }}
           >
             <div className="p-3 bg-white/10 rounded-xl group-hover:bg-white/20 group-hover:scale-110 transition-all duration-300">
               <FaTelegramPlane size={24} />
