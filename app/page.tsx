@@ -51,7 +51,7 @@ export default function Page() {
         <div className={`flex flex-col w-full gap-5 transition-all duration-1000 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           {/* ADMIN */}
           <a
-            href="https://t.me/Ustoz_Mlbb_servis_bot"
+            href="https://t.me/ustozmlbb/13"
             target="_blank"
             rel="noopener noreferrer"
             className="group w-full py-4 rounded-2xl bg-gradient-to-r from-blue-500/90 to-blue-600/90 hover:from-blue-400 hover:to-blue-500 backdrop-blur-sm border border-white/10 transition-all duration-500 text-white flex items-center justify-center gap-4 shadow-2xl hover:shadow-2xl hover:shadow-blue-500/30 hover:-translate-y-2 transform-gpu"
